@@ -13,7 +13,6 @@ body {
 
 body > div {
     background-color: antiquewhite;
-    color: white;
 }
 
 body > div:first-child {
@@ -23,6 +22,7 @@ body > div:first-child {
     background-image: url("./space.jpg");
     background-position: 50% 50%;
     background-size: cover;
+    color: white;
 }
 
 body > div:last-child {
