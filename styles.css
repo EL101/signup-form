@@ -7,23 +7,45 @@
 body {
     display: flex;
     padding: 0 10%;
+    height: 100vh;
 }
+
 
 body > div {
     background-color: antiquewhite;
+    color: white;
 }
+
 body > div:first-child {
-    width: 33%;
+    flex: 2 0 6rem;
     background-color: aliceblue;
+    background-image: url("./space.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
 }
+
+body > div:last-child {
+    flex: 5;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 20%;
+    margin-top: 30vh;
+    background-color: rgba(100, 100, 100,0.5);
+    padding: 1rem;
 }
 
 .logo-img {
     width: 40px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: hsl(0, 0%, 68%);
 }
