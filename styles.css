@@ -26,7 +26,11 @@ body > div:first-child {
 }
 
 body > div:last-child {
+    --horizontal-padding: 4rem;
     flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo-container {
@@ -52,6 +56,7 @@ body > div:last-child {
     transform: translate(-50%, -50%);
     font-size: 11px;
 }
+
 a {
     color: white;
 }
@@ -59,3 +64,55 @@ a {
 a:hover {
     color: hsl(0, 0%, 68%);
 }
+
+.form-blurb {
+    font-weight: bold;
+    margin: 2rem 0;
+    font-size: 18px;
+    padding: 0px var(--horizontal-padding);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem var(--horizontal-padding);
+    background-color: white;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.form-heading {
+    flex-basis: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 20vw;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-row {
+    display: flex;
+    gap: 5rem;
+}
+
+label {
+    font-size: 0.6rem;
+}
+
+button[type="submit"],
+button[type="submit"] + p {
+    margin: 0 var(--horizontal-padding) 1.5rem;
+}
+
+button[type="submit"] {
+    padding: 8px 40px;
+    align-self: flex-start;
+}
+
