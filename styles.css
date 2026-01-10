@@ -17,6 +17,7 @@ body > div {
 }
 
 body > div:first-child {
+    position: relative;
     flex: 2 0 6rem;
     background-color: aliceblue;
     background-image: url("./space.jpg");
@@ -33,15 +34,24 @@ body > div:last-child {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 30vh;
+    margin-top: 27vh;
     background-color: rgba(100, 100, 100,0.5);
     padding: 1rem;
+    height: 15vh;
+    font-size: min(5vh, 1.5rem);
 }
 
 .logo-img {
-    width: 40px;
+    width: min(10vh, 60px);
 }
 
+.bg-caption {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+}
 a {
     color: white;
 }
