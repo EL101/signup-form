@@ -6,8 +6,8 @@
 
 body {
     display: flex;
-    padding: 0 10%;
     height: 100vh;
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -18,6 +18,7 @@ body > div {
 body > div:first-child {
     position: relative;
     flex: 2 0 6rem;
+    min-width: 20rem;
     background-color: aliceblue;
     background-image: url("./space.jpg");
     background-position: 50% 50%;
@@ -89,6 +90,7 @@ form {
 
 input {
     width: 20vw;
+    height: 25px;
 }
 
 .form-input {
@@ -114,5 +116,17 @@ button[type="submit"] + p {
 button[type="submit"] {
     padding: 8px 40px;
     align-self: flex-start;
+    background-color: rgb(39, 86, 186);
+    color: white;
+    font-weight: bold;
 }
 
+button[type="submit"]:hover {
+    background-color: rgb(33, 68, 146);
+}
+
+span.login {
+    color: rgb(39, 86, 186);
+    font-weight: bold;
+    cursor: pointer;
+}
