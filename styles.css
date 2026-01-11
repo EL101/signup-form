@@ -91,6 +91,19 @@ form {
 input {
     width: 20vw;
     height: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.343);
+    border-radius: 3px;
+    padding: 4px 5px;
+}
+
+input:invalid {
+    border: 1px solid rgb(232, 47, 47);
+}
+
+input:focus {
+    border: none;
+    outline: 1px solid rgb(41, 41, 207);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.216);
 }
 
 .form-input {
@@ -106,6 +119,8 @@ input {
 
 label {
     font-size: 0.6rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.646);
 }
 
 button[type="submit"],
@@ -114,11 +129,14 @@ button[type="submit"] + p {
 }
 
 button[type="submit"] {
-    padding: 8px 40px;
+    padding: 10px 40px;
     align-self: flex-start;
     background-color: rgb(39, 86, 186);
     color: white;
     font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.341);
 }
 
 button[type="submit"]:hover {
