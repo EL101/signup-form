@@ -51,6 +51,9 @@ body > div:last-child {
     width: min(10vh, 60px);
 }
 
+.logo-name {
+    font-family: "Audiowide", Helvetica, sans-serif;
+}
 .bg-caption {
     position: absolute;
     bottom: 5px;
