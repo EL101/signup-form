@@ -12,7 +12,7 @@ body {
 
 
 body > div {
-    background-color: antiquewhite;
+    background-color: rgba(232, 232, 232, 0.624);
 }
 
 body > div:first-child {
@@ -29,6 +29,7 @@ body > div:first-child {
 body > div:last-child {
     --horizontal-padding: 4rem;
     flex: 5;
+    max-width: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,6 +81,7 @@ form {
     background-color: white;
     gap: 15px;
     margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.237);
 }
 
 .form-heading {
@@ -94,6 +96,7 @@ input {
     border: 1px solid rgba(128, 128, 128, 0.343);
     border-radius: 3px;
     padding: 4px 5px;
+    max-width: 15rem;
 }
 
 input:invalid {
