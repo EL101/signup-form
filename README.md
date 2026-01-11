@@ -4,3 +4,5 @@ Some practice creating and styling forms with HTML, CSS, JavaScript, following a
 Validated confirm password and password fields using JavaScript.
 
 Logo font: [Audiowide](https://fonts.google.com/specimen/Audiowide?preview.text=WELCOME&categoryFilters=Feeling:%2FExpressive%2FFuturistic)
+
+Take a look at the [live preview](https://el101.github.io/signup-form/)!
